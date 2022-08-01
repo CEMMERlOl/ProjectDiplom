@@ -1,0 +1,22 @@
+.Headline {
+    height: 80px;
+    background-color: rgba(52, 27, 75, 0.822);
+    color: rgb(252, 240, 240);
+}
+.Headlineimg {
+    width: auto;
+    height: 70px;
+}
+.Absolute {
+    position: absolute;
+    left: 50px;
+}
+.point {
+    cursor: pointer;
+}
+.justify_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}

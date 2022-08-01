@@ -1,0 +1,167 @@
+body {
+    background-color: grey;
+    overflow-x:hidden;
+}
+/* Начало Тело */
+.carouselWidth {
+    width: 85%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+.newcarimg {
+    width: 100%;
+    height: 650px;
+
+}
+.Codimg {
+    background: url(/Images/COD2.jpg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Skyimg {
+    background: url(/Images/NoMansSky.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Strayimg {
+    background: url(/Images/Stray.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Warimg {
+    background: url(/Images/warhammertotalwar3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.colheight1 {
+    height: 450px;
+}
+@media screen and (max-width: 1300px) {
+    .carouselWidth {
+        width: 100%;
+    }
+    .imgcol {
+        width: 50%;
+    }
+    .textcol {
+    width: 500px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .carouselWidth {
+        width: 100%;
+    }
+    .imgcol {
+        width: 850px;
+    }
+    .textcol {
+    margin-left: 19%;
+    }
+}
+.carousel-item {
+    color: white;
+}
+.pricecolor {
+    color: blueviolet;
+}
+/* Block */
+.flexrow {
+    justify-content: center;
+}
+.newblockimg {
+    width: 75%;
+    height: 450px;
+    position: relative;
+    left: 12.6%;
+    margin: 5rem 0rem;
+}
+.Treshid {
+    width: 100%;
+    height: 450px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-image: linear-gradient(#d6a0d6 , #0B95DD);
+    background: linear-gradient(to bottom, rgb(2, 0, 0), rgba(11, 149, 221, 0.5));
+    opacity: 0;
+}
+.Treshid:hover {
+    opacity: 1;
+}
+.pricecolor2 {
+    color: #d6a0d6;
+}
+.margininner {
+    padding: 100px 50px 0px 50px;
+}
+.Codblockimg {
+    background: url(/Images/COD2.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.Skyblockimg {
+    background: url(/Images/NoMansSky.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.Strayblockimg {
+    background: url(/Images/Stray.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.Warblockimg {
+    background: url(/Images/warhammertotalwar3.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.Dieblockimg {
+    background: url(/Images/dyinglight2.jpeg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.Corsablockimg {
+    background: url(/Images/assetto-corsa-competizione-banner-1.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.fontblock {
+    font-size: 13pt;
+    font-weight: bold;
+    padding-top: 40px;
+}
+@media screen and (max-width: 1660px) {
+.newblockimg {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    left: 0px;
+    margin: 0px;
+}
+.flexrow {
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+.col-5 {
+    width: 605px;
+    padding: 0px;
+}
+}
+@media screen and (max-width: 1201px) {
+.newblockimg {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    left: 0px;
+    margin: 5rem 0rem;
+}
+.flexrow {
+    margin-top: 0rem;
+}
+}

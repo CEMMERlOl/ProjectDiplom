@@ -1,0 +1,91 @@
+body {
+    background-color: grey;
+    overflow-x:hidden;
+}
+/* Начало Тело */
+.flexrow {
+    justify-content: center;
+    background-color: black;
+}
+.newcarimg {
+    width: 100%;
+    height: 450px;
+}
+.Codimg {
+    background: url(/Images/COD2.jpg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Skyimg {
+    background: url(/Images/NoMansSky.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Strayimg {
+    background: url(/Images/Stray.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Warimg {
+    background: url(/Images/warhammertotalwar3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Dieimg {
+    background: url(/Images/dyinglight2.jpeg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Corsaimg {
+    background: url(/Images/assetto-corsa-competizione-banner-1.jpg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.colheight1 {
+    height: 450px;
+    max-width: 860px;
+}
+.textcol {
+    width: 28%;
+    color: white;
+}
+@media screen and (max-width: 1300px) {
+    .newcarimg {
+        background-size: contain;
+    }
+    .imgcol {
+        width: 65%;
+    }
+    .textcol {
+    width: 32%;
+    }
+    .colheight1 {
+    height: 450px;
+    max-width: 825px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .imgcol {
+        width: 100%;
+    }
+    .textcol {
+    width: 58%;
+    }
+}
+.pricecolor {
+    color: blueviolet;
+}
+a.button24 {
+    font-weight: bold;
+    color: white;
+    font-size: 20pt;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 10px 48px;
+    border-radius: 6px;
+    background: linear-gradient(#0ff394, #003004);
+    transition: 0.2s;
+}
+a.button24:hover { background: linear-gradient(#12b37d, #01771e);}
+a.button24:active { background: linear-gradient(#00f57bb9, #39f5009f);}
+/* Конец Тело */

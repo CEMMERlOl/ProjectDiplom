@@ -1,0 +1,39 @@
+.color {
+    background-color: rgb(106,78,156);
+}
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+.justify_end {
+    display: flex;
+    justify-content: flex-end;
+}
+.justify_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.justify_around {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item {
+    font-weight: bold;
+}
+.brand {
+    width: 50px;
+    height: 50px;
+    margin-left: 55%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+@media screen and (max-width: 580px) {
+    #bars1 {
+        display: none;
+    }
+}
+.btn-light {
+    white-space: nowrap;
+}
